@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,ts}"],
+  content: [
+    "./src/**/*.{html,ts}",
+  ],
   theme: {
     colors: {
       primary: "#4ac99b",
@@ -11,8 +13,10 @@ module.exports = {
       "gray-light": "#464646",
       "gray-lighter": "#a3a3a3",
       red: "#ff8c67",
-      white: "#cccccc",
+      white: "#e5e5e5",
+      transparent: 'transparent'
     },
   },
   plugins: [],
-};
+}
+
